@@ -1,8 +1,8 @@
-<?php
+ <?php
      include_once('header.php');
      include_once('../DB/config.php');
      include_once('../Model/delete.php');
-     ?>
+     ?> 
 
     <?php
     
@@ -14,12 +14,12 @@
 
 ?>
 
-    <form action="../Controller/delete.php" method="post">
+    <!-- <form action="../Controller/delete.php" method="post">
     
     <input type="number"  name="id">
     <input type="hidden"  name="id"  value="<?= $userArr['id']?>">
     <input type="submit" class="btn btn-primary" name="submit">
     
     
-    </form>
+    </form> -->
 

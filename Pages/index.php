@@ -1,6 +1,7 @@
 <?php
 include_once('./header.php');
 include_once('../Model/profile.php');
+include_once('../Model/delete.php');
 session_start();
 
 ?>

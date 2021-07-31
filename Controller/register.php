@@ -1,8 +1,8 @@
 <?php
 include_once('../DB/config.php');
 include_once('../Model/register.php');
-
-if( isset($_POST['submit']) )
+//print_r($_POST);exit;
+if( isset($_POST) )
 {
 
     $userArr = [
